@@ -2,6 +2,10 @@
 
 <html>
 <style>
+    body {
+        border: 0;
+        margin: 0;
+    }
     h1{
         color: red;
     }
@@ -10,12 +14,17 @@
         color: blue;
     }
 
+    a{
+        text-align: center;
+        text-decoration: none;
+    }
+
 </style>
 <head>
     <title>Trang chủ</title>
 </head>
 
 <body>
-    <h1>Welcome to Evil Esport News</h1>
+    <a href="https://github.com/nhokmant2003/Evil_Esports"><h1>Welcome to Evil Esport News</h1></a>
 </body>
 </html>
