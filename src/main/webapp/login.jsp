@@ -60,7 +60,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 </head>
 <body>
-<jsp:include page="header/header.jsp" />
+<jsp:include page="header.jsp" />
 <!---->
 <!--banner-->
 <div class="banner-top">
@@ -99,7 +99,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 		</div>
 <!--footer-->
-<jsp:include page="footer/footer.jsp" />
+<jsp:include page="footer.jsp" />
 <!-- //footer-->
 <!-- smooth scrolling -->
 	<script type="text/javascript">

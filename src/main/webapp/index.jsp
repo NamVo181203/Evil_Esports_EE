@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <jsp:include page="header/header.jsp" />
-    <jsp:include page="body/body.jsp" />
-    <jsp:include page="footer/footer.jsp" />
+    <jsp:include page="header.jsp" />
+    <jsp:include page="body.jsp" />
+    <jsp:include page="footer.jsp" />
 </body>
 </html>
