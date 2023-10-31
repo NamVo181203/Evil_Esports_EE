@@ -1,30 +1,16 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 
 <html>
-<style>
-    body {
-        border: 0;
-        margin: 0;
-    }
-    h1{
-        color: red;
-    }
-
-    h1:hover{
-        color: blue;
-    }
-
-    a{
-        text-align: center;
-        text-decoration: none;
-    }
-
-</style>
 <head>
     <title>Trang chủ</title>
+    <link rel="stylesheet" type="text/css" href="css/footer_style.css">
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
 </head>
 
 <body>
-    <a href="https://github.com/nhokmant2003/Evil_Esports"><h1>Welcome to Evil Esport News</h1></a>
+    <jsp:include page="header/header.jsp" />
+    <jsp:include page="body/body.jsp" />
+    <jsp:include page="footer/footer.jsp" />
 </body>
 </html>
