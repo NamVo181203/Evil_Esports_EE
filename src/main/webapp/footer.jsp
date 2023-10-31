@@ -31,9 +31,9 @@
 			<div class="col-md-3 footer-grid">
 				<h3>My Account</h3>
 				<ul>
-					<li><a href="login.html">Login</a></li>
-					<li><a href="register.html">Register</a></li>
-					<li><a href="wishlist.html">Wishlist</a></li>
+					<li><a href="login.jsp">Login</a></li>
+					<li><a href="register.jsp">Register</a></li>
+					<li><a href="wishlist.jsp">Wishlist</a></li>
 
 				</ul>
 			</div>
@@ -42,17 +42,17 @@
 					<h2 ><a href="index.html"><b>T<br>H<br>E</b>Evil Computer<span>Best Place For Building Your PC</span></a></h2>
 					<p class="fo-para">Evil Computer - Best place for buying Computer Components and Gaming Gears with a really low price.</p>
 					<ul class="social-fo">
-						<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#" class=" pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-						<li><a href="#" class=" dri"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="dri"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 					</ul>
 					<div class=" address">
 						<div class="col-md-4 fo-grid1">
-								<p><i class="fa fa-home" aria-hidden="true"></i>Đường Trần Đại Nghĩa, Hòa Quý, Ngũ Hành Sơn, Đà Nẵng.</p>
+								<p><i class="fa fa-home" aria-hidden="true"></i>470 Trần Đại Nghĩa, Hòa Quý, Ngũ Hành Sơn, Đà Nẵng.</p>
 						</div>
 						<div class="col-md-4 fo-grid1">
-								<p><i class="fa fa-phone" aria-hidden="true"></i>+1234 567 890 , +0919 113 114</p>
+								<p><i class="fa fa-phone" aria-hidden="true"></i>+84935193055 +84777568865</p>
 						</div>
 						<div class="col-md-4 fo-grid1">
 							<p><a href="mailto:info@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>EvilComputer@gmail.com</a></p>
