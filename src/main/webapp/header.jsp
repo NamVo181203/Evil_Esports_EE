@@ -40,7 +40,7 @@
 					</div>
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
-							<li class=" active"><a href="index.jsp" class="hyper "><span>Home</span></a></li>
+							<li class=" activee"><a href="index.jsp" class="hyper "><span>Home</span></a></li>
 
 							<li class="dropdown ">
 								<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>PC Component<b class="caret"></b></span></a>
