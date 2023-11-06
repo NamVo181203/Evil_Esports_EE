@@ -109,7 +109,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Intel Core i9 9900K</a> 3.6GHz - 5GHz | 8 Cores - 16 Threads</h6>
+											<h6><a href="single.jsp">Intel Core i9 9900K</a> 3.6GHz - 5GHz | 8 Cores - 16 Threads</h6>
 										</div>
 										<div class="mid-2">
 											<p ><label>14,490,000</label><em class="item_price">12,900,000 VND</em></p>
@@ -501,7 +501,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 		<div class="col-md-4 m-w3ls">
 			<div class="col-md1 ">
-				<a href="pccomponent.html">
+				<a href="pccomponent.jsp">
 					<img src="images/co1.jpg" class="img-responsive img" alt="">
 					<div class="big-sa">
 						<h6>New Collections</h6>
@@ -513,7 +513,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 		<div class="col-md-4 m-w3ls1">
 			<div class="col-md ">
-				<a href="console.html">
+				<a href="console.jsp">
 					<img src="images/co.jpg" class="img-responsive img" alt="">
 					<div class="big-sale">
 						<div class="big-sale1">
@@ -526,7 +526,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 		<div class="col-md-4 m-w3ls">
 			<div class="col-md2 ">
-				<a href="pccomponent.html">
+				<a href="pccomponent.jsp">
 					<img src="images/co2.jpg" class="img-responsive img1" alt="">
 					<div class="big-sale2">
 						<h3>RAM <span>RGB</span></h3>
@@ -535,7 +535,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</a>
 			</div>
 			<div class="col-md3 ">
-				<a href="pccomponent.html">
+				<a href="pccomponent.jsp">
 					<img src="images/co3.jpg" class="img-responsive img1" alt="">
 					<div class="big-sale3">
 						<h3>SSD <span>NVMe</span></h3>
@@ -559,15 +559,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-         <a href="pccomponent.html"> <img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
+         <a href="pccomponent.jsp"> <img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
 
         </div>
         <div class="item">
-         <a href="gaminggear.html"> <img class="second-slide " src="images/ba1.jpg" alt="Second slide"></a>
+         <a href="gaminggear.jsp"> <img class="second-slide " src="images/ba1.jpg" alt="Second slide"></a>
 
         </div>
         <div class="item">
-          <a href="console.html"><img class="third-slide " src="images/ba2.jpg" alt="Third slide"></a>
+          <a href="console.jsp"><img class="third-slide " src="images/ba2.jpg" alt="Third slide"></a>
 
         </div>
       </div>

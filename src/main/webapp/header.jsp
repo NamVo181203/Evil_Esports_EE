@@ -1,4 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <a href="offer.jsp"><img src="images/download.png" class="img-head" alt=""></a>
 <div class="header">
 		<div class="container">
@@ -27,7 +31,6 @@
 
 				<div class="nav-top">
 					<nav class="navbar navbar-default">
-
 					<div class="navbar-header nav_2">
 						<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
 							<span class="sr-only">Toggle navigation</span>
@@ -35,9 +38,8 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-
-
 					</div>
+
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav ">
 							<li class=" activee"><a href="index.jsp" class="hyper "><span>Home</span></a></li>
@@ -46,17 +48,15 @@
 								<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>PC Component<b class="caret"></b></span></a>
 								<ul class="dropdown-menu multi">
 									<div class="row">
+									    <c:forEach var="pc" items="${listP}" >
 										<div class="col-sm-3">
 											<ul class="multi-column-dropdown">
 
-												<li><a href="pccomponent.jsp"><i class="fa fa-angle-right" aria-hidden="true"></i>Mainboard</a></li>
-												<li><a href="pccomponent.jsp"><i class="fa fa-angle-right" aria-hidden="true"></i>CPU</a></li>
-												<li><a href="pccomponent.jsp"> <i class="fa fa-angle-right" aria-hidden="true"></i>RAM</a></li>
-												<li><a href="pccomponent.jsp"><i class="fa fa-angle-right" aria-hidden="true"></i>GPU</a></li>
+												    <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>${pc.ten_pc}</a></li>
 
 											</ul>
-
 										</div>
+										</c:forEach>
 										<div class="col-sm-3">
 
 											<ul class="multi-column-dropdown">
@@ -80,7 +80,7 @@
 											</ul>-->
 										</div>
 										<div class="col-sm-3 w3l">
-											<a href="pccomponent.jsp"><img src="images/me.png" class="img-responsive" alt=""></a>
+											<a href="#"><img src="images/me.png" class="img-responsive" alt=""></a>
 										</div>
 										<div class="clearfix"></div>
 									</div>
